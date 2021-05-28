@@ -1,0 +1,9 @@
+/* pages/demo/demo.wxss */
+.demoView {
+  margin: 20rpx 20rpx;
+  padding: 20rpx 20rpx;
+  border-radius: 15rpx;
+  height: 100%;
+  background-color: rgb(255, 233, 200);
+  color: rgb(61, 37, 0);
+}
