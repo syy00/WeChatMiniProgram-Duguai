@@ -1,0 +1,19 @@
+/* pages/form/form.wxss */
+
+form{
+  width: 100%;
+}
+
+.coin{
+  width: 60%;
+}
+
+.detailText{
+  width: 90%;
+}
+
+.tarea{
+  display:flex;
+  width:100%;
+  justify-content:center;
+}

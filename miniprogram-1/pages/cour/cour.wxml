@@ -1,0 +1,28 @@
+<view>
+  <view class='row box'>
+    <label>课程名称：{{cour}}</label>
+  </view>
+  <view class='row box'>
+    <label>老师：{{name}}</label>
+  </view>
+  <view wx:for="{{Cmd}}" data-item="item" wx:for-index="idx">
+    <view class="cmdbox">
+      <view class="arow">
+        <label>第{{idx+1}}条评论</label>
+      </view>
+      <view class="arow">
+        <label>投币数目</label>
+        <text class="coin">{{item.coin}}</text>
+        <label>是否选中</label>
+        <text class="success">{{item.cour}}</text>
+      </view>
+      <view class="arow">
+        <label>评论</label>
+        <view class="txtbox">{{item.comment}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="btnctr">
+    <button class='addbutton' size="mini" bindtap="goToAdd"><image class="btnImg" src="../images/add1.jpeg" style="width: 104rpx; height: 98rpx; display: inline-block; box-sizing: border-box"></image></button>
+  </view>
+</view>

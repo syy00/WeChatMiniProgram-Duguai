@@ -1,0 +1,19 @@
+<!--pages/form/form.wxml-->
+<form bindsubmit="submitForm">
+  <view class='row box'>
+    <label>投币数目</label>
+    <textarea name='coin' class="coin" auto-height value='{{coin}}'></textarea>
+  </view>
+  <view class='row box'>
+    <label>是否选中</label>
+    <picker name='cour' range='{{Ifcour}}' bindchange='courChange' value='{{cour}}'>
+      <view>{{cour}}</view>
+    </picker>
+  </view>
+  <view class="tarea">
+    <textarea name='comment' class="detailText" placeholder="输入您的评价" bindblur="bindTextAreaBlur" value="{{comment}}"></textarea>
+  </view>
+  <view class="btnctr">
+    <button form-type='submit'>发布</button>
+  </view>
+</form>

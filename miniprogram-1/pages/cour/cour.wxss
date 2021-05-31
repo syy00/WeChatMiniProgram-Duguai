@@ -1,0 +1,59 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnImg{
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.search{
+  background-color: #72aff0;
+  height:64rpx
+}
+
+.cmdbox{
+  margin-left: 0rpx;
+  margin-top: 10rpx;
+  padding-bottom: 10rpx;
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(86, 253, 217);
+}
+
+.coin{
+  font-size: small;
+}
+
+.success{
+  font-size: small;
+}
+
+.cmdtxt{
+  font-size: medium;
+}
+
+.arow{
+  margin-left: 5%;
+}
+
+.txtbox{
+  width: 90%;
+  font-size: medium;
+  line-height: 30rpx;
+  text-align: justify;
+}
